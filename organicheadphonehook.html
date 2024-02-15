@@ -44,7 +44,7 @@
 							<li><a href="generic.html">Ipsum veroeros</a></li>
 							<li><a href="generic.html">Tempus etiam</a></li>
 							<li><a href="generic.html">Consequat dolor</a></li>
-							<li><a href="elements.html">Elements</a></li>
+							<li><a href="elements">Elements</a></li>
 						</ul>
 					</nav>
 
@@ -58,20 +58,75 @@
 								</iframe>
 							</div>
 							<h2> Problem </h2>
-							<p>My Headphones are taking up too much space on my table</p>
-
-							<h2> Thought Process </h2>
-							<p>Headphone hooks are commonly available in the market for about $25
-								Show Lazada/Shopee Screenshot.
-								However, While the hooks are readily available I wanted to have a hook that is more compliant and more natural feeling. Thus, I decided to utilise Fusion 360's Generative Design to generate a more natural looking product.
+							<p>
+								My Headphones are taking up too much space on my table, thus I wanted to design a slick looking headphone hook.
 							</p>
 
+							<h2> Thought Process </h2>
+							<p>
+								I started by drawing the contour of the headband by placing it on a piece of paper and obtaining its dimensions.
+							</p>
+							<p>
+								Next, I sketched out the basic concept that the generative design engine will build upon.
+							</p>
+
+							<center>
+								<img src="images/OrganicHeadphoneHook/Drawing.jpg" alt="Initial Sketch" width="50%" height="50%"/>
+							</center>
+
 							<h2> Prototype </h2>
+							<p>
+								I then designed my idea using Fusion 360, by preparing constraining the model using the following parameters:
+								<li>Load: 20N</li>
+								<li>Geometric Constaints: The back was fixed as I intended to 3M tape it to the wall</li>
+								<li>Material: PA12, PEKK, Tough 2000</li>
+								<li>Obstacles</li>
+							</p>
+
+							<center>
+								<img src="images/OrganicHeadphoneHook/GDCAD.jpg" alt="Initial Sketch" width="50%" height="50%"/>
+							</center>
+
+							<p>
+								After running the generative design software, I compared the 4 Generative Design results as shown below.
+							</p>
+
+							<center>
+								<img src="images/OrganicHeadphoneHook/GDComparisonFront.jpg" alt="Initial Sketch" width="50%" height="50%"/>
+								<img src="images/OrganicHeadphoneHook/GDComparisonBottom.jpg" alt="Initial Sketch" width="50%" height="50%"/>
+							</center>
+
+							<p>
+								As the  resulting geometries are similar, likely due to the similarities in their material properties and not under significant loading,
+								their profiles are similar. Thus the top right one was chosen due to it looking the cleanest.
+							</p>
+
+							<p>
+								The file was then sliced using OrcaSlicer and printed on my Sidewinder X1 in ABS due to its environmental resistant properties.
+							</p>
 							
+							<center>
+								<img src="images/OrganicHeadphoneHook/PrintedHook.jpg" alt="Initial Sketch" width="50%" height="50%"/>
+							</center>
+
 							<h2> Testing </h2>
-							
+
+							<p>
+								Due to my wall's uneven surface, I had to change the mounting method to be bolted onto my window grills instead as seen below.
+							</p>
+
+							<center>
+								<img src="images/OrganicHeadphoneHook/HookV1.jpg" alt="Initial Sketch" width="50%" height="50%"/>
+							</center>
+
+							<p>
+								The dimensions fitted well and was able to hold the headset without any issues even without the foam.
+							</p>
+
 							<h2> Potential improvements </h2>
-							
+							<p>
+								<li>Longer support/End support: Sometimes the headphones will fall onto the ground due to my neighbour's kid knocking onto my window</li>
+							</p>
 						</div>
 					</div>
 
