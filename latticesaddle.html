@@ -6,7 +6,7 @@
 -->
 <html>
 	<head>
-		<title>Leg Cast (AFO)</title>
+		<title>Lattice Saddle</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
@@ -50,50 +50,35 @@
 				<!-- Main -->
 					<div id="main">
 						<div class="inner">
-							<h1>AFO Prototype</h1>
+							<h1>Lattice Saddle</h1>
 							<div class="auto-scale">
-								<iframe src="https://a360.co/49sexfg" width="640" height="480" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true" frameborder="0" style="width:100%; height:400px;">
+								<iframe src="https://a360.co/3vPkeFy" width="640" height="480" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true" frameborder="0" style="width:100%; height:400px;">
 									<p>Your browser does not support iframes.</p>
 								</iframe>
 							</div>
-
-							<h1>AFO Demo</h1>
-							<div class="auto-scale">
-								<iframe src="https://a360.co/49uiv7f" width="640" height="480" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true" frameborder="0" style="width:100%; height:400px;">
-									<p>Your browser does not support iframes.</p>
-								</iframe>
-							</div>
-							<br/>
-							
 							<h2> Purpose </h2>
-							<p>Develop an orthopaedic AFO workflow</p>
+							<p>Develop a individualised high performance saddle</p>
 
-
-							<h2> Process </h2>
+							<h2> Process/Contributions </h2>
 							<ul>
-								<li>3D scan and process point cloud into a mesh</li>
-								<li>Using mesh/medical software such as mercuris or meshmixer, adjust the mesh and move the respective keypoints into their correct position and divide the body part into different segments</li>
-								<li>Load the divided into the Hyperganic core to add various features such as embossing images/words, perforated holes and automatic placement of components onto the casts</li>
+								<li>Model the saddle using images via quadmesh/surfacing and UVMapping</li>
+								<li>Import into a lattice software (Hyperganic Core), lattice the model's body and the top UV map with 2 separate lattices</li>
+								<li>Implement octree to reduce time required to generate the structure</li>
+								<li>Added airflow channels to the edges</li>
+								<li>Implemented modulating lattice by importing pressure maps and modulating the lattice thickness with respect to the grey scale values</li>
+								<li>3D printed the prototype in Nylon-CF like resin</li>
 							</ul>
 
 							<h2> Results </h2>
 							<center>
-								<img src="images/Work/3DPrintedLegCast.png" alt="" width="50%" height="50%"/>
+								<img src="images/Work/ModulatingBicycleSaddle.jpg" alt="" />
 							</center>
-
 							<center>
-								<img src="images/Work/3DPrintedLegCastSoft.jpg" alt="" width="50%" height="50%"/>
+								<img src="images/Work/BicycleSaddle.jpg" alt="" />
 							</center>
-
 							<center>
-								<img src="images/Work/3DPrintedLegCastSet.jpg" alt="" width="50%" height="50%"/>
+								<img src="images/Work/BicycleSaddle2.jpg" alt="" />
 							</center>
-
-							<center>
-								<img src="images/Work/Prototype Leg Cast.jpg" alt="" width="50%" height="50%"/>
-							</center>
-							
-														
 						</div>
 					</div>
 
